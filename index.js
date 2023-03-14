@@ -111,7 +111,7 @@ function createCard(){
             document.querySelector("#heading").style.visibility="hidden";
             document.querySelector("#createList").style.fontSize="1.6rem";
             document.querySelector("#createList").style.marginLeft="0px";
-            display(cards);
+            display(tempArray);
         });
     });
 }
