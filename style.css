@@ -104,7 +104,8 @@ button:hover{
 .card{
     margin-top: 40px;
    margin-left: 50px;
-    height: 330px;
+    min-height: 330px;
+    max-height: fit-content;
    width: 230px;
    background-color: white;
    color: black;
@@ -118,16 +119,12 @@ button:hover{
 #plus{
     color: dodgerblue;
     font-size: 1.8rem;
-    position: absolute;
-    top: 270px;
-    left: 155px;
+    margin-top: 195px;
+    margin-left: 120px;
 }
 #delete{
     font-size: 1.7rem;
     margin-left: 10px;
-    position: absolute;
-    top: 270px;
-    left: 180px;
 }
 #rule{
     height: 2px;
