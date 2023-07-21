@@ -70,7 +70,7 @@ html{
     background: rgba(255, 255, 255,0); 
     backdrop-filter: blur(10px);
     position: absolute;
-  }
+}
 h4{
     font-size: 2rem;
     margin-bottom: 20px;
@@ -180,4 +180,69 @@ li{
     position: absolute;
     top: 63px;
     left: 1050px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+#container{
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+#tasks {
+    font-size: 4rem;
+}
+
+#list {
+    font-size: 4rem;
+}
+
+#createList{
+    font-size: 2.5rem;
+    margin-top: 6rem;
+}
+
+#additem{
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+#noItems {
+    width: 100%;
+    font-size: 2.5rem;
+    top: 65%;
+    left: 25%;
+    text-align: center;
+}
+
+#blur {
+    height: 150vh;
+    width: 150%;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    position: absolute;
+}
+
+#listForm,
+#itemForm {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    z-index: 10;
+}
+
+.card {
+    margin-top: 5rem;
+}
+
+#lists {
+    width: 100%;
+    flex-direction: column;
+    top: 17rem;
+    left: 6.5rem;
+    padding-bottom: 5rem;
+}
+
 }
